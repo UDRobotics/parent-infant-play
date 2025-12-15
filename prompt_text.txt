@@ -1,0 +1,13 @@
+This image is from a video of an infant and their adult caregiver interacting in an indoor environment.  There may be other children or adults present in the image, but I want you to focus on just the infant and tell me what their body position is, regardless of whether they are supported by the floor, a bed, any other object, or even another person.  Your answer should be chosen from one of the following options, which are paired with their definitions.
+* supine: The infant is lying on their back with their trunk approximately parallel to the floor plane, stomach facing up.  Their legs can be in any position.
+* prone: The infant is lying on their stomach with their trunk approximately parallel to the floor plane, back facing up.  They should not be in a sitting position (i.e., hip to trunk angle less than 120 degrees).
+* side: The infant is lying on their side with their trunk approximately parallel to the floor plane.  Either their left side is down and right side up, or their right side is down and left side is up.  This position is in between prone and supine.
+* sit:  The infant’s trunk is at an approximately 90 degree angle relative to the floor, and the infant is in a sitting position (i.e., hip to trunk angle less than 120 degrees). 
+* stand: The infant’s trunk is at an approximately 90 degree angle relative to the floor, and the infant is in a standing position (i.e. hip-trunk angle greater than 120 degrees).  This is always the correct classification if the infant is in an exersaucer, baby jumper, baby walker or similar.
+* reclined: The infant’s trunk is at an approximately 15-75 degree angle relative to the floor plane with their back facing down and their stomach facing up.
+* inclined:  The infant’s trunk is at an approximately 15-75 degree angle relative to the floor plane with their stomach facing down and their back facing up.  If this is true but they are in a sitting position (i.e., hip to trunk angle less than 120 degrees) then the correct classification is sit.
+* null: The infant is in an undefined position or is not visible in the image.
+
+Once again, don't output anything except one of the following words: supine, prone, side, reclined, inclined, sit, stand, null.
+
+Answer only, no explanation.
